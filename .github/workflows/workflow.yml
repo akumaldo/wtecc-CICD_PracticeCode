@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-ons: unbuntu-latest
+    runs-on: unbuntu-latest
     container: python:3.9-slim
     steps:
       - name: Checkout
