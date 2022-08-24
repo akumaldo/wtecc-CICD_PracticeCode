@@ -1,0 +1,12 @@
+name: CI workflow
+on:
+  push:
+    branches: [ "main" ]
+on:
+  pull_request: [ "main" ]
+
+jobs:
+  build:
+    runs-ons: unbuntu-latest
+    container: python:3.9-slim
+
